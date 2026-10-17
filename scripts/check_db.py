@@ -9,3 +9,5 @@ with get_engine().begin() as conn:
         text("SELECT extversion FROM pg_extension WHERE extname = 'vector'")
     ).scalar()
     print("pgvector version:", version)
+
+    

@@ -7,3 +7,5 @@ pgvector
 openai
 pytest
 httpx
+defusedxml
+python-multipart
